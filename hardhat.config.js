@@ -6,7 +6,7 @@ module.exports = {
   solidity: "0.8.0",
   paths: {
     sources: './contracts',
-    artifacts: './frontend/src/artifacts'
+    artifacts: './front/src/artifacts'
   },
   networks: {
     hardhat: {
@@ -16,5 +16,5 @@ module.exports = {
       url: process.env.WEB3_ALCHEMY_GOERLI,
       accounts: [process.env.PRIVATE_KEY_GOERLI]
     }
-  }
+  } 
 };

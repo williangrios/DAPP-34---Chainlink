@@ -1,0 +1,18 @@
+form{
+  background-color: lightgray;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+form input{
+  margin-top: 3px;
+}
+
+form div{
+  background-color: aqua;
+}
